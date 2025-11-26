@@ -8,8 +8,7 @@ export default function Welcome() {
     <div className="min-h-screen bg-gradient-to-b from-white via-purple-50 to-purple-100 flex flex-col items-center justify-center text-center px-4 relative">
       {/* Navbar */}
       <nav className="absolute top-6 left-6 flex items-center gap-2">
-        <div className="w-8 h-2 bg-blue-600 rounded-sm"></div>
-        <span className="text-xl font-semibold text-gray-800">EDHR</span>
+        <img onClick={() => navigate("/")} src="/logo.svg" alt="logo" />
       </nav>
 
       {/* Login + Register Buttons */}
